@@ -1,0 +1,18 @@
+/* Liệt kê các thẻ có màu đỏ */
+h1,
+h2,
+p,
+ul {
+  color: red;
+}
+
+/* Chỉ có thẻ p và thẻ có class="demo" có màu blue*/
+.demo,
+p,
+#title {
+  color: blue;
+}
+
+.demo.demo2 {
+  color: yellow;
+}
